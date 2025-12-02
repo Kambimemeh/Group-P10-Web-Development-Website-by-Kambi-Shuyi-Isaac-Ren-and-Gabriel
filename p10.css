@@ -119,3 +119,46 @@ section > form fieldset > br {
   align-self: flex-start; 
 }
 
+.goalname{
+    color: black;
+    height: 50px;
+    margin-top: 25px;
+    display: inline;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    float: right;
+}
+
+
+.quote {
+    background-color: #f5eacd;
+    text-align: center;
+    height: 50px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 2px, black, solid;
+}
+
+
+
+.left, .right{
+    border: 2px, solid, black;
+    border-radius: 10px;
+    height: 150vh;
+    width: 49vw;
+    background-color: #cfe8ef;
+}
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
