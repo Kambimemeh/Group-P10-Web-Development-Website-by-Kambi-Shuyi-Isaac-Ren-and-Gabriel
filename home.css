@@ -1,0 +1,119 @@
+#navigation-bar li {
+    color: rgb(234, 138, 138);
+    font-weight: bold;
+}
+
+nav {
+    width: 100%;
+    background-color: #cfe8ef;
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    background-color: #fffaed;
+    border: 2px solid;
+    border-color: #a6a0ba;
+    border-radius: 9999px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.15s ease, transform 0.12s ease;
+    font-weight: bold;
+}
+
+nav ul li {
+    text-transform: none;
+    padding-right: 0;
+}
+
+nav ul li a:hover {
+    background-color: #f2efe6;
+    transform: translateY(-2px);
+}
+
+nav ul li.home-btn a {
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    border-color: black;
+}
+
+nav ul li.home-btn a:hover {
+    background-color: darkgray;
+    transform: translateY(-2px);
+}
+
+
+#footer_external {
+    background-color: #cfe8ef;
+    text-align: center;
+    font-size: 1.0em;
+    padding-top: 10px;
+    margin-top: 650px;
+}
+
+#footer_external li {
+    list-style: none;
+    display: inline-block;
+    padding: 23px 20px;
+    padding-inline: 151px;
+}
+
+#footer_external li a {
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+}
+
+#search-bar {
+    border-radius: 9999px;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid;
+    margin-left: 830px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: larger;
+}
+
+
+#dropdown-menu {
+    display: none;
+}
+
+@media only screen and (max-width:786px) {
+    #dropdown-menu {
+        background-color: #fffaed;
+        padding: 0.8%;
+        opacity: 3;
+    }
+}
+
+#home {
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#home img {}
