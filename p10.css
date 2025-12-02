@@ -1,5 +1,4 @@
-
-section{
+#form{
     width: 100%;
     height: 60vh;
     margin-top: 10px;
@@ -13,10 +12,22 @@ section{
     flex-direction: column;
 }
 
+main {
+    padding-left: 1%;
+    padding-right: 1%;
 }
+
 html, body {
   height: 100%;
   margin: 0;   
+}
+
+header{
+    background-color: #f5eacd;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 label{
@@ -31,9 +42,6 @@ label{
     font-weight: bold;
 
 }
-legend{
-
-}
 
 html{
     background-color: #fffaed;
@@ -44,11 +52,11 @@ html{
 }
 
 nav {
-  width: 100%;                  
+  width: auto;                  
   background-color: #cfe8ef;      
   border-radius: 15px;          
   padding: 40px;  
-  margin-bottom: 100px;    
+  margin-bottom: 10px;    
 }
 
 
@@ -112,6 +120,7 @@ section > form fieldset > br {
   align-self: flex-start; 
 }
 
+
 .goalname{
     color: black;
     height: 50px;
@@ -142,7 +151,7 @@ section > form fieldset > br {
     border: 2px, solid, black;
     border-radius: 10px;
     height: 150vh;
-    width: 49vw;
+    width: 48vw;
     background-color: #cfe8ef;
 }
 
@@ -154,4 +163,3 @@ section > form fieldset > br {
 .right{
     float: right;
 }
-
