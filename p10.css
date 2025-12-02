@@ -12,13 +12,6 @@ section{
     display: flex;
     flex-direction: column;
 }
-main{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 16px;
-    
 
 }
 html, body {
