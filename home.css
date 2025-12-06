@@ -67,6 +67,54 @@ nav ul li.logo a:hover {
 }
 
 
+#search-bar {
+    border-radius: 9999px;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid;
+    margin-left: 720px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.banner {
+    border: 2px, solid, black;
+    border-radius: 30px;
+    height: 55vh;
+    width: 95vw;
+    background-color: white;
+    display: block;
+    padding-top: 60px;
+    margin-left: 42px;
+}
+
+.left,
+.right {
+    border: 2px, solid, black;
+    border-radius: 10px;
+    height: 55vh;
+    width: 24vw;
+    background-color: white;
+    margin-left: 100px;
+}
+
+
+.left {
+    float: left;
+}
+
+
+.right {
+    float: right;
+    margin-right: 170px;
+}
+
+
+
 #footer_external {
     background-color: #cfe8ef;
     text-align: center;
@@ -87,31 +135,4 @@ nav ul li.logo a:hover {
     font-weight: bold;
     font-size: x-large;
     color: black;
-}
-
-#search-bar {
-    border-radius: 9999px;
-    font-size: large;
-    font-weight: bold;
-    padding: 5px 10px;
-    border: 2px solid;
-    margin-left: 720px;
-}
-
-.btn {
-    border-radius: 10px;
-    font-size: larger;
-}
-
-
-#dropdown-menu {
-    display: none;
-}
-
-@media only screen and (max-width:786px) {
-    #dropdown-menu {
-        background-color: #fffaed;
-        padding: 0.8%;
-        opacity: 3;
-    }
 }

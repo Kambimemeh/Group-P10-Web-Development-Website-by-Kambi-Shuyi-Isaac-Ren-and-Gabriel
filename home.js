@@ -1,27 +1,32 @@
 
 fetch("home.json")
     .then(response => response.json())
-    .then(data => {
+    .then(section => {
+        const sectionElement = document.createElement(section)
         const home = document.getElementById('#home');
         const imageofElement = document.createElement('img')
+        const banner = document.createElement('.banner')
+
         imageofElement.src = item.imageURL;
         imageofElement.alt = item.alt;
         home.appendChild(imageofElement);
         sectionElement.appendChild(home);
 
-        const h6ofElement = document.createElement('h6');
-        h6ofElement.innerText = item.style;
-        home.appendChild(h6ofElement);
+        const h2ofElement = document.createElement('h2');
+        h2ofElement.textContent = `This is the Goal: ${item.goalname}`;
+        home.appendChild(h2ofElement)
 
-        const p1ofElement = document.createElement('p');
-        p1ofElement.innerText = item.text;
-        home.appendChild(p1ofElement)
+        const p2ofElement = document.createElement('p');
+        p2ofElement.textContent = `Link: ${item.linkURL}`;
+        home.appendChild(p2ofElement)
 
-        const pofElement = document.createElement('p');
-        pofElement.innerText = `Link: ${item.linkURL}`;
-        home.appendChild(pofElement)
+        const p3ofElement = document.createElement('p');
+        p3ofElement.textContent = item.quote;
+        home.appendChild(p3ofElement)
 
-        home.setAttribute('id', 'home')
+        const h3ofElement = document.createElement('h3');
+        h3ofElement.textContent = item.style;
+        home.appendChild(h2ofElement);
     }
     );
 
