@@ -1,8 +1,8 @@
 
 fetch("home.json")
     .then(response => response.json())
-    .then(section => {
-        const sectionElement = document.createElement(section)
+    .then(responseData => {
+        const sectionElement = document.createElement('section')
         const home = document.getElementById('#home');
         const imageofElement = document.createElement('img')
         const banner = document.createElement('.banner')
