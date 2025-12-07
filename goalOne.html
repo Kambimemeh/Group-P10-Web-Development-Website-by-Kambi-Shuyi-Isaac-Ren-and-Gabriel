@@ -1,48 +1,54 @@
 <!DOCTYPE html> 
 <html>
-    <head>
-        <title>Goal One</title>
-        <link rel="stylesheet" href="p10.css">
+<head>
+    <title>Goal One</title>
+    <link rel="stylesheet" href="p10.css">
+</head>
+<body>
+    <nav>
+        <ul id = "navbar">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="goalOne.html">Goal One</a></li>
+            <li><a href="goalTwo.html">Goal Two</a></li>
+            <li><a href="goalThree.html">Goal Three</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="form.html">Join Us</a></li>
+        </ul>
+    </nav>
 
-    </head>
-    <body>
+    <header>
+        <div>
+            <h1 class="goalname">Goal One: Life Below Water</h1>
+            <img src = "images/sdg14-logo.png" class="logo" alt="SDG 14 Logo">
+        </div>
+    </header>
 
-        <nav>
-            <ul id = "navbar">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="goalOne.html">Goal One</a></li>
-                <li><a href="goalTwo.html">Goal Two</a></li>
-                <li><a href="goalThree.html">Goal Three</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="form.html">Join Us</a></li>
-            </ul>
-        </nav>
-
-        <header>
-            <div>
-                <h1 class="goalname">Goal One</h1>
-                <img src = "" class="logo">
+    <main>
+        <h2 class="quote">Protect and sustainably use the oceans, seas and marine resources for sustainable development</h2>
+        <section class="left">
+            <p>Over 3 billion people depend on marine and coastal biodiversity for their livelihoods. Yet, oceans are now more acidic than ever before, and plastic pollution is reaching epidemic proportions. Marine protected areas need to be effectively managed and well-resourced to ensure the survival of our planet's blue heart.</p>
+        </section>
+        <section class="right">
+            <div class="card">
+                <img src="images/turtle.jpg" alt="Turtle in the ocean">
+                <h3>Protect Marine Biodiversity</h3>
+                <p>We must protect endangered species such as sea turtles, coral reefs and marine mammals from overfishing, habitat destruction and climate change.</p>
+                <a href="https://sdgs.un.org/goals/goal14" target="_blank">Learn More</a>
             </div>
-        </header>
+            <div class="card">
+                <img src="images/plastic.jpg" alt="Plastic waste in the ocean">
+                <h3>Reduce Marine Pollution</h3>
+                <p>80% of marine pollution comes from land-based activities. Reducing plastic use, proper waste management and sustainable consumption can reverse this trend.</p>
+                <a href="https://sdgs.un.org/goals/goal14" target="_blank">Learn More</a>
+            </div>
+        </section>
+    </main>
 
-        <main>
-            <h2 class="quote"></h2>
-            <section class="left">
-                <p>
+    <footer>
+        <p><a href="mailto:someone@example.com">Send email</a></p>
+        <p>© 2025 P10 UN Website</p>
+    </footer>
 
-                </p>
-            </section>
-            <section class="right">
-                <p>
-                    
-                </p>
-            </section>
-        </main>
-
-        <footer>
-            <p><a href="mailto:someone@example.com">Send email</a></p>
-            <p>© 2025 P10 UN Website</p>
-        </footer>
-        
-    </body>
+    <script src="js/goalOne.js"></script>
+</body>
 </html>
