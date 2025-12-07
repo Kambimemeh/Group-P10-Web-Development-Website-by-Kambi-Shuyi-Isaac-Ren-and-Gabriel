@@ -5,12 +5,21 @@ fetch("home.json")
         const sectionElement = document.createElement('section')
         const home = document.getElementById('#home');
         const imageofElement = document.createElement('img')
-        const banner = document.createElement('.banner')
+        const banner = document.getElementsByClassName('.banner')
+        const leftgoalPage = document.getElementsByClassName('.left')
+        const rightgoalPage = document.getElementsByClassName('.right')
 
         imageofElement.src = item.imageURL;
         imageofElement.alt = item.alt;
-        home.appendChild(imageofElement);
-        sectionElement.appendChild(home);
+
+        banner.appendChild(imageofElement);
+        sectionElement.appendChild(banner);
+
+        leftgoalPage.appendChild(imageofElement);
+        sectionElement.appendChild(leftgoalPage);
+
+        rightgoalPage.appendchild(imageofElement);
+        sectionElement.appendChild(rightgoalPage);
 
         const h2ofElement = document.createElement('h2');
         h2ofElement.textContent = `This is the Goal: ${item.goalname}`;
