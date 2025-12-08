@@ -122,18 +122,29 @@ section > form fieldset > br {
 
 
 .goalname{
-    color: black;
     height: 50px;
-    margin-top: 25px;
+    margin-left: 10%;
+    display: inline;
+    color: white;
+}
+
+.goalspace {
     display: inline;
 }
 
-.logo {
+.goallogo {
     width: 10%;
-    height: 10%;
-    float: right;
+    height: 100%;
+    float: right; 
 }
 
+.logospace {
+    display: inline;
+}
+
+.info {
+    padding: 10px;
+}
 
 .quote {
     background-color: #f5eacd;
@@ -145,9 +156,7 @@ section > form fieldset > br {
     border: 2px, black, solid;
 }
 
-
-
-.left, .right{
+.goalleft, .goalright{
     border: 2px, solid, black;
     border-radius: 10px;
     height: 150vh;
@@ -155,11 +164,36 @@ section > form fieldset > br {
     background-color: #cfe8ef;
 }
 
-
-.left{
+.goalleft{
     float: left;
 }
 
-.right{
+.goalright{
     float: right;
+}
+
+.displayimg {
+    height: 38%;
+    width: 38vw;
+    margin-left: 5vw;
+    border: 2px, black, solid;
+    border-radius: 10px;
+}
+
+/* goal 1 specifics */
+
+.watercolour {
+    background-color: #007dbd;
+}
+
+/* goal 2 specifics */
+
+.energycolour {
+    background-color: #fcb712;
+}
+
+/* goal 3 specifics */
+
+.hungercolour {
+    background-color: #d3a02a;
 }
