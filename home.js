@@ -1,41 +1,37 @@
-
+// Load JSON from external file
 fetch("home.json")
-    .then(response => response.json())
-    .then(responseData => {
-        const sectionElement = document.createElement('section')
-        const home = document.getElementById('#home');
-        const imageofElement = document.createElement('img')
-        const banner = document.getElementsByClassName('.banner')
-        const leftgoalPage = document.getElementsByClassName('.left')
-        const rightgoalPage = document.getElementsByClassName('.right')
+  .then(response => response.json())
+  .then(data => {
+    // Banner image
+    const bannerBg = document.querySelector("#home .banner");
+    bannerBg.innerHTML = `<img src="${data.banner.imageURL}" alt="${data.banner.alt}">`;
 
-        imageofElement.src = item.imageURL;
-        imageofElement.alt = item.alt;
+    // Select sections
+    const leftSections = document.querySelectorAll("#navSection .left");
+    const rightSection = document.querySelector("#navSection .right");
 
-        banner.appendChild(imageofElement);
-        sectionElement.appendChild(banner);
+    // Goal 1 → first left
+    leftSections[0].innerHTML = `
+      <h2>${data.goals[0].goalname}</h2>
+      <a href="${data.goals[0].linkURL}" target="_blank">
+        <img src="${data.goals[0].imageURL}" alt="${data.goals[0].alt}">
+      </a>
+    `;
 
-        leftgoalPage.appendChild(imageofElement);
-        sectionElement.appendChild(leftgoalPage);
+    // Goal 2 → right
+    rightSection.innerHTML = `
+      <h2>${data.goals[1].goalname}</h2>
+      <a href="${data.goals[1].linkURL}" target="_blank">
+        <img src="${data.goals[1].imageURL}" alt="${data.goals[1].alt}">
+      </a>
+    `;
 
-        rightgoalPage.appendchild(imageofElement);
-        sectionElement.appendChild(rightgoalPage);
-
-        const h2ofElement = document.createElement('h2');
-        h2ofElement.textContent = `This is the Goal: ${item.goalname}`;
-        home.appendChild(h2ofElement)
-
-        const p2ofElement = document.createElement('p');
-        p2ofElement.textContent = `Link: ${item.linkURL}`;
-        home.appendChild(p2ofElement)
-
-        const p3ofElement = document.createElement('p');
-        p3ofElement.textContent = item.quote;
-        home.appendChild(p3ofElement)
-
-        const h3ofElement = document.createElement('h3');
-        h3ofElement.textContent = item.style;
-        home.appendChild(h2ofElement);
-    }
-    );
-
+    // Goal 3 → second left
+    leftSections[1].innerHTML = `
+      <h2>${data.goals[2].goalname}</h2>
+      <a href="${data.goals[2].linkURL}" target="_blank">
+        <img src="${data.goals[2].imageURL}" alt="${data.goals[2].alt}">
+      </a>
+    `;
+  })
+  .catch(error => console.error("Error loading JSON:", error));
