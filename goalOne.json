@@ -1,0 +1,25 @@
+[
+    {
+        "header": "Life Below Water",
+
+        "logoURL": "assets/lifebelowwater.jpeg",
+
+        "quote": "\"Protect and sustainably use the oceans, seas and marine resources for sustainable development\"",
+
+        "sentence1": "Over 3 billion people depend on marine and coastal biodiversity for their livelihoods.",
+        "sentence2": "Yet, oceans are now more acidic than ever before, and plastic pollution is reaching epidemic proportions.",
+        "sentence3": "Marine protected areas need to be effectively managed and well-resourced to ensure the survival of our planet's blue heart.",
+
+        "header1": "Protect Marine Biodiversity",
+        "caption1": "We must protect endangered species such as sea turtles, coral reefs and marine mammals from overfishing, habitat destruction and climate change.",
+        "imgURL1": "assets/turtle.jpeg",
+
+        "header2": "Reduce Marine Pollution",
+        "caption2": "80% of marine pollution comes from land-based activities. Reducing plastic use, proper waste management and sustainable consumption can reverse this trend.",
+        "imgURL2": "assets/plastic.jpeg",
+
+        "linkURL": "https://sdgs.un.org/goals/goal14"
+
+    }
+]
+        

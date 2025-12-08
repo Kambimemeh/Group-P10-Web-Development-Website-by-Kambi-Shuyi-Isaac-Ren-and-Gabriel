@@ -1,0 +1,22 @@
+[
+    {
+        "header": "Affordable & clean energy",
+
+        "logoURL": "assets/affordable_clean_energy.jpeg",
+
+        "quote": "\"To ensure access to affordable, reliable, sustainable and modern energy for all.\"",
+
+        "sentence1": "Between 2000 and 2018, the number of people with electricity increased from 78 to 90 percent, and the numbers without electricity dipped to 789 million.",
+        "sentence2": "Yet as the population continues to grow, so will the demand for cheap energy, and an economy reliant on fossil fuels is creating drastic changes to our climate.",
+        "sentence3": "Investing in solar, wind and thermal power, improving energy productivity, and ensuring energy for all is vital if we are to achieve SDG 7 by 2030.",
+        "sentence4": "Expanding infrastructure and upgrading technology to provide clean and more efficient energy in all countries will encourage growth and help the environment.",
+        "imageURL": "assets/renewable.jpeg",
+        
+        "title": "Goals for 2030:",
+        "goal1": "Ensure universal access to affordable, reliable and modern energy services",
+        "goal2": "Increase substantially the share of renewable energy in the global energy mix",
+        "goal3": "Double the global rate of improvement in energy efficiency",
+        "goal4": "Enhance international cooperation to facilitate access to clean energy research and technology, including renewable energy, energy efficiency and advanced and cleaner fossil-fuel technology, and promote investment in energy infrastructure and clean energy technology",
+        "goal5": "Expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States, and land-locked developing countries"
+    }
+]
